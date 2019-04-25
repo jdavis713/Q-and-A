@@ -13,13 +13,13 @@
         <!--Q&A-->
         <scene sceneID="x91-Bl-gzD">
             <objects>
-                <tableViewController title="Q&amp;A" id="kNs-nr-8ij" sceneMemberID="viewController">
+                <tableViewController title="Q&amp;A" id="kNs-nr-8ij" customClass="QuestionsTableViewController" customModule="Q_A" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="3oF-Fm-cvV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="134" id="zqv-Wf-cl8">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="134" id="zqv-Wf-cl8" customClass="QuestionsTableViewCell" customModule="Q_A" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="134"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zqv-Wf-cl8" id="tqD-yE-i8U">
@@ -79,6 +79,13 @@
                                         <constraint firstItem="UCJ-ue-D7W" firstAttribute="top" secondItem="tqD-yE-i8U" secondAttribute="topMargin" constant="8" id="iwm-UY-fig"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="AskerLabel" destination="L82-jL-hUB" id="05P-zG-laW"/>
+                                    <outlet property="QuestionLabel" destination="27K-Yn-dWv" id="hIk-D0-03N"/>
+                                    <outlet property="answerableLabel" destination="00n-v6-IKJ" id="z76-s0-69e"/>
+                                    <outlet property="askerLabel" destination="L82-jL-hUB" id="cyv-Tx-kf6"/>
+                                    <outlet property="questionLabel" destination="27K-Yn-dWv" id="yLL-7r-1lH"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

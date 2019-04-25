@@ -13,6 +13,8 @@
 		8BF175DD2272544A00DB981B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF175DB2272544A00DB981B /* LaunchScreen.storyboard */; };
 		8BF175E7227254AB00DB981B /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF175E6227254AB00DB981B /* Question.swift */; };
 		8BF175E9227256DA00DB981B /* QuestionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF175E8227256DA00DB981B /* QuestionController.swift */; };
+		8BF175EB227274F300DB981B /* QuestionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF175EA227274F300DB981B /* QuestionsTableViewController.swift */; };
+		8BF175ED2272766A00DB981B /* QuestionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF175EC2272766A00DB981B /* QuestionsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8BF175DE2272544A00DB981B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BF175E6227254AB00DB981B /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		8BF175E8227256DA00DB981B /* QuestionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionController.swift; sourceTree = "<group>"; };
+		8BF175EA227274F300DB981B /* QuestionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsTableViewController.swift; sourceTree = "<group>"; };
+		8BF175EC2272766A00DB981B /* QuestionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				8BF175DE2272544A00DB981B /* Info.plist */,
 				8BF175E6227254AB00DB981B /* Question.swift */,
 				8BF175E8227256DA00DB981B /* QuestionController.swift */,
+				8BF175EA227274F300DB981B /* QuestionsTableViewController.swift */,
+				8BF175EC2272766A00DB981B /* QuestionsTableViewCell.swift */,
 			);
 			path = "Q&A";
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			files = (
 				8BF175D32272544800DB981B /* AppDelegate.swift in Sources */,
 				8BF175E7227254AB00DB981B /* Question.swift in Sources */,
+				8BF175ED2272766A00DB981B /* QuestionsTableViewCell.swift in Sources */,
 				8BF175E9227256DA00DB981B /* QuestionController.swift in Sources */,
+				8BF175EB227274F300DB981B /* QuestionsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
