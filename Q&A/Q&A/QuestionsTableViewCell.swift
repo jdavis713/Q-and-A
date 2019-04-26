@@ -13,4 +13,19 @@ class QuestionsTableViewCell: UITableViewCell {
     @IBOutlet var askerLabel: UILabel!
     @IBOutlet var answerLabel: UILabel!
     
+    private func updateViews() {
+        guard let question = question else { return }
+        
+        questionLabel.text = question.text
+    }
+    
+    var  question: Question? {
+        didSet {
+            updateViews()
+        }
+    }
+    
+    class Question{
+        var text : String?
+    }
 }
