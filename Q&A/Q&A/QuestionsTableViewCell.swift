@@ -11,6 +11,6 @@ import UIKit
 class QuestionsTableViewCell: UITableViewCell {
     @IBOutlet var questionLabel: UILabel!
     @IBOutlet var askerLabel: UILabel!
-    @IBOutlet var answerableLabel: UILabel!
+    @IBOutlet var answerLabel: UILabel!
     
 }
